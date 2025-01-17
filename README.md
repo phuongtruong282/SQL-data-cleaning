@@ -2051,7 +2051,7 @@ SELECT * FROM club_member_info; `
 |ALLIX LAWRIE|50|divorced|alawrierq@wsj.com|515-452-7385|162 Orin Way,Des Moines,Iowa|Nurse Practicioner|3/19/2021|
 |rockey gimbrett|26|married|rgimbrettrr@google.ca|713-436-2805|77 Dorton Crossing,Houston,Texas|Account Executive|4/25/2015|
 ## Clean the data
-### Inconsistent letter case
+### Inconsistent letter case and Leading and trailing whitespaces
 **SQL:**`UPDATE club_member_info_cleaned
 SET full_name=TRIM(LOWER(full_name));`
 
